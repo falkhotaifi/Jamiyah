@@ -17,6 +17,8 @@ class SignInRegisterViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        seg_control.setTitleTextAttributes([NSFontAttributeName:UIFont(name: "Muslimah", size: 14)!], for: .normal)
+        
     }
 
     override func didReceiveMemoryWarning() {

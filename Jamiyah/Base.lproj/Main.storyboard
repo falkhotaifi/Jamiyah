@@ -65,16 +65,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="ج" translatesAutoresizingMaskIntoConstraints="NO" id="cun-Kr-kBj">
-                                <rect key="frame" x="140" y="28" width="95" height="117"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="95" id="bhH-GT-Uha"/>
-                                </constraints>
-                            </imageView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="edU-GT-vom">
-                                <rect key="frame" x="16" y="206" width="343" height="29"/>
+                                <rect key="frame" x="28" y="226" width="319" height="33"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="neD-2u-kvD"/>
+                                    <constraint firstAttribute="width" constant="319" id="B1w-0M-VCj"/>
+                                    <constraint firstAttribute="height" constant="32" id="neD-2u-kvD"/>
                                 </constraints>
                                 <segments>
                                     <segment title="انشاء حساب جديد"/>
@@ -86,34 +81,41 @@
                                 </connections>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iHW-Xt-tJ8" userLabel="Sign In Container View">
-                                <rect key="frame" x="16" y="248" width="343" height="170"/>
+                                <rect key="frame" x="28" y="266" width="319" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="319" id="DXR-k5-ChW"/>
+                                    <constraint firstAttribute="height" constant="170" id="hOJ-ko-g49"/>
+                                </constraints>
                                 <connections>
                                     <segue destination="Pcn-A3-pQs" kind="embed" id="gOW-7z-Iha"/>
                                 </connections>
                             </containerView>
-                            <containerView hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rBA-Nb-LNe" userLabel="Sign up Container View">
-                                <rect key="frame" x="16" y="248" width="343" height="170"/>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rBA-Nb-LNe" userLabel="Sign up Container View">
+                                <rect key="frame" x="28" y="266" width="319" height="170"/>
                                 <connections>
                                     <segue destination="MNo-0r-a6v" kind="embed" id="GL1-EV-1hi"/>
                                 </connections>
                             </containerView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="ج" translatesAutoresizingMaskIntoConstraints="NO" id="cun-Kr-kBj">
+                                <rect key="frame" x="140" y="58" width="95" height="117"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="dQQ-4E-xBj"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.87979346510000001" green="0.8873942494" blue="0.88683527709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="edU-GT-vom" firstAttribute="leading" secondItem="iHW-Xt-tJ8" secondAttribute="leading" id="3CG-wb-8CS"/>
-                            <constraint firstItem="iHW-Xt-tJ8" firstAttribute="bottom" secondItem="rBA-Nb-LNe" secondAttribute="bottom" id="8qR-1F-ahn"/>
-                            <constraint firstItem="edU-GT-vom" firstAttribute="trailing" secondItem="rBA-Nb-LNe" secondAttribute="trailing" id="Aec-qk-iqQ"/>
-                            <constraint firstItem="rBA-Nb-LNe" firstAttribute="centerY" secondItem="DJF-K3-PxT" secondAttribute="centerY" id="CbZ-zH-bky"/>
-                            <constraint firstItem="edU-GT-vom" firstAttribute="leading" secondItem="DJF-K3-PxT" secondAttribute="leadingMargin" id="L0d-vF-KZt"/>
-                            <constraint firstItem="edU-GT-vom" firstAttribute="trailing" secondItem="DJF-K3-PxT" secondAttribute="trailingMargin" id="NIz-4T-v0L"/>
-                            <constraint firstItem="iHW-Xt-tJ8" firstAttribute="leading" secondItem="rBA-Nb-LNe" secondAttribute="leading" id="YUW-Ih-ZWQ"/>
-                            <constraint firstItem="cun-Kr-kBj" firstAttribute="centerX" secondItem="edU-GT-vom" secondAttribute="centerX" id="abU-2z-ADm"/>
-                            <constraint firstItem="2VN-0c-qYb" firstAttribute="top" secondItem="rBA-Nb-LNe" secondAttribute="bottom" constant="249" id="ass-af-gVb"/>
-                            <constraint firstItem="rBA-Nb-LNe" firstAttribute="top" secondItem="edU-GT-vom" secondAttribute="bottom" constant="14" id="hEB-Ra-tBf"/>
-                            <constraint firstItem="iHW-Xt-tJ8" firstAttribute="top" secondItem="rBA-Nb-LNe" secondAttribute="top" id="iy1-nk-nw6"/>
-                            <constraint firstItem="rBA-Nb-LNe" firstAttribute="trailing" secondItem="iHW-Xt-tJ8" secondAttribute="trailing" id="kVb-tA-3EC"/>
-                            <constraint firstItem="cun-Kr-kBj" firstAttribute="top" secondItem="w9X-fn-DnS" secondAttribute="bottom" constant="8" symbolic="YES" id="usi-ek-AaG"/>
-                            <constraint firstItem="edU-GT-vom" firstAttribute="top" secondItem="cun-Kr-kBj" secondAttribute="bottom" constant="61" id="vCn-LX-Nvf"/>
+                            <constraint firstItem="rBA-Nb-LNe" firstAttribute="top" secondItem="edU-GT-vom" secondAttribute="bottom" constant="8" symbolic="YES" id="2Il-zT-wma"/>
+                            <constraint firstItem="2VN-0c-qYb" firstAttribute="top" secondItem="rBA-Nb-LNe" secondAttribute="bottom" constant="231" id="UvI-Kg-DzQ"/>
+                            <constraint firstItem="edU-GT-vom" firstAttribute="top" secondItem="cun-Kr-kBj" secondAttribute="bottom" constant="51" id="VvZ-Un-N29"/>
+                            <constraint firstItem="rBA-Nb-LNe" firstAttribute="trailing" secondItem="iHW-Xt-tJ8" secondAttribute="trailing" id="csA-tb-e4j"/>
+                            <constraint firstItem="cun-Kr-kBj" firstAttribute="centerX" secondItem="edU-GT-vom" secondAttribute="centerX" id="mEu-wt-fb1"/>
+                            <constraint firstItem="rBA-Nb-LNe" firstAttribute="top" secondItem="iHW-Xt-tJ8" secondAttribute="top" id="rqa-IQ-xrs"/>
+                            <constraint firstItem="rBA-Nb-LNe" firstAttribute="leading" secondItem="iHW-Xt-tJ8" secondAttribute="leading" id="ruu-RD-mhT"/>
+                            <constraint firstItem="rBA-Nb-LNe" firstAttribute="centerX" secondItem="DJF-K3-PxT" secondAttribute="centerX" id="tfL-Cs-GE8"/>
+                            <constraint firstItem="rBA-Nb-LNe" firstAttribute="bottom" secondItem="iHW-Xt-tJ8" secondAttribute="bottom" id="vli-di-2cW"/>
+                            <constraint firstItem="cun-Kr-kBj" firstAttribute="top" secondItem="w9X-fn-DnS" secondAttribute="bottom" constant="38" id="wxj-gf-iHz"/>
+                            <constraint firstItem="rBA-Nb-LNe" firstAttribute="leading" secondItem="edU-GT-vom" secondAttribute="leading" id="yPH-in-o1L"/>
                         </constraints>
                     </view>
                     <nil key="simulatedTopBarMetrics"/>
@@ -136,11 +138,11 @@
                         <viewControllerLayoutGuide type="bottom" id="KaB-Rd-3U5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="huU-oJ-Dah">
-                        <rect key="frame" x="0.0" y="0.0" width="343" height="170"/>
+                        <rect key="frame" x="0.0" y="0.0" width="319" height="170"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="الإيميل" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lgy-9K-t7M">
-                                <rect key="frame" x="16" y="0.0" width="311" height="40"/>
+                                <rect key="frame" x="16" y="0.0" width="287" height="40"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="T4T-zo-u4f"/>
@@ -150,7 +152,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="الرقم السري" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jPn-rW-Smm">
-                                <rect key="frame" x="16" y="40" width="311" height="40"/>
+                                <rect key="frame" x="16" y="40" width="287" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="s5Z-8V-0u9"/>
@@ -160,7 +162,7 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEF-wK-a34">
-                                <rect key="frame" x="16" y="130" width="311" height="40"/>
+                                <rect key="frame" x="16" y="130" width="287" height="40"/>
                                 <color key="backgroundColor" red="0.3157320748741117" green="0.075942473757568768" blue="0.12056284316237492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="waw-Cb-34x"/>
@@ -174,7 +176,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JdJ-HW-Ji1">
-                                <rect key="frame" x="16" y="80" width="311" height="40"/>
+                                <rect key="frame" x="16" y="80" width="287" height="40"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="drg-zJ-DIM"/>
@@ -224,11 +226,11 @@
                         <viewControllerLayoutGuide type="bottom" id="rKv-xS-E3L"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8dF-7i-rKZ">
-                        <rect key="frame" x="0.0" y="0.0" width="343" height="170"/>
+                        <rect key="frame" x="0.0" y="0.0" width="319" height="170"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="الاسم" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6FH-kK-pUw">
-                                <rect key="frame" x="16" y="0.0" width="311" height="40"/>
+                                <rect key="frame" x="16" y="0.0" width="287" height="40"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="253-Rh-052"/>
@@ -238,7 +240,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="الإيميل" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xlq-eL-0sw">
-                                <rect key="frame" x="16" y="40" width="311" height="40"/>
+                                <rect key="frame" x="16" y="40" width="287" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="8Eu-ZT-DXA"/>
@@ -248,7 +250,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="الرقم السري" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aFk-3c-4tg">
-                                <rect key="frame" x="16" y="80" width="311" height="40"/>
+                                <rect key="frame" x="16" y="80" width="287" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="xJv-dP-wyp"/>
@@ -258,7 +260,7 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GH9-0q-Kyn">
-                                <rect key="frame" x="16" y="130" width="311" height="40"/>
+                                <rect key="frame" x="16" y="130" width="287" height="40"/>
                                 <color key="backgroundColor" red="0.31573207489999999" green="0.075942473760000004" blue="0.12056284320000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="WQz-s1-Fi3"/>
