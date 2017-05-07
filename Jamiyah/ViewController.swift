@@ -19,6 +19,10 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBAction func signOut_buttonTabbed(_ sender: Any) {
+        performSegue(withIdentifier: "MoveToSignInRegView", sender: self)
+    }
+    
 
 
 }

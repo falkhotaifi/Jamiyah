@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		286365ED1EBF167400B3C126 /* muslimah-light-165e47eb23ec3485030eb50483629860.otf in Resources */ = {isa = PBXBuildFile; fileRef = 286365EC1EBF167400B3C126 /* muslimah-light-165e47eb23ec3485030eb50483629860.otf */; };
+		286365EF1EBF18A000B3C126 /* SignInRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286365EE1EBF18A000B3C126 /* SignInRegisterViewController.swift */; };
+		286365F11EBF18C800B3C126 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286365F01EBF18C800B3C126 /* SignInController.swift */; };
+		286365F31EBF18E100B3C126 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286365F21EBF18E100B3C126 /* RegisterViewController.swift */; };
 		287772061EBECF0E00196D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287772051EBECF0E00196D97 /* AppDelegate.swift */; };
 		287772081EBECF0E00196D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287772071EBECF0E00196D97 /* ViewController.swift */; };
 		2877720B1EBECF0E00196D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287772091EBECF0E00196D97 /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		286365EC1EBF167400B3C126 /* muslimah-light-165e47eb23ec3485030eb50483629860.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "muslimah-light-165e47eb23ec3485030eb50483629860.otf"; sourceTree = "<group>"; };
+		286365EE1EBF18A000B3C126 /* SignInRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRegisterViewController.swift; sourceTree = "<group>"; };
+		286365F01EBF18C800B3C126 /* SignInController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		286365F21EBF18E100B3C126 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		287772021EBECF0E00196D97 /* Jamiyah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jamiyah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		287772051EBECF0E00196D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		287772071EBECF0E00196D97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +43,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		286365E91EBF151C00B3C126 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				287772051EBECF0E00196D97 /* AppDelegate.swift */,
+				287772071EBECF0E00196D97 /* ViewController.swift */,
+				286365EE1EBF18A000B3C126 /* SignInRegisterViewController.swift */,
+				286365F01EBF18C800B3C126 /* SignInController.swift */,
+				286365F21EBF18E100B3C126 /* RegisterViewController.swift */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		286365EA1EBF158600B3C126 /* Supported files */ = {
+			isa = PBXGroup;
+			children = (
+				286365EB1EBF162100B3C126 /* Font */,
+				2877720C1EBECF0E00196D97 /* Assets.xcassets */,
+				2877720E1EBECF0E00196D97 /* LaunchScreen.storyboard */,
+				287772111EBECF0E00196D97 /* Info.plist */,
+			);
+			name = "Supported files";
+			sourceTree = "<group>";
+		};
+		286365EB1EBF162100B3C126 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				286365EC1EBF167400B3C126 /* muslimah-light-165e47eb23ec3485030eb50483629860.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
 		287771F91EBECF0E00196D97 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +93,9 @@
 		287772041EBECF0E00196D97 /* Jamiyah */ = {
 			isa = PBXGroup;
 			children = (
-				287772051EBECF0E00196D97 /* AppDelegate.swift */,
-				287772071EBECF0E00196D97 /* ViewController.swift */,
 				287772091EBECF0E00196D97 /* Main.storyboard */,
-				2877720C1EBECF0E00196D97 /* Assets.xcassets */,
-				2877720E1EBECF0E00196D97 /* LaunchScreen.storyboard */,
-				287772111EBECF0E00196D97 /* Info.plist */,
+				286365E91EBF151C00B3C126 /* VC */,
+				286365EA1EBF158600B3C126 /* Supported files */,
 			);
 			path = Jamiyah;
 			sourceTree = "<group>";
@@ -125,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				287772101EBECF0E00196D97 /* LaunchScreen.storyboard in Resources */,
+				286365ED1EBF167400B3C126 /* muslimah-light-165e47eb23ec3485030eb50483629860.otf in Resources */,
 				2877720D1EBECF0E00196D97 /* Assets.xcassets in Resources */,
 				2877720B1EBECF0E00196D97 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +174,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286365EF1EBF18A000B3C126 /* SignInRegisterViewController.swift in Sources */,
+				286365F31EBF18E100B3C126 /* RegisterViewController.swift in Sources */,
+				286365F11EBF18C800B3C126 /* SignInController.swift in Sources */,
 				287772081EBECF0E00196D97 /* ViewController.swift in Sources */,
 				287772061EBECF0E00196D97 /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +342,7 @@
 				287772161EBECF0E00196D97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
