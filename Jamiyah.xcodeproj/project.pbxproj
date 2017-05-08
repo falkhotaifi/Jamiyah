@@ -64,8 +64,8 @@
 				287772051EBECF0E00196D97 /* AppDelegate.swift */,
 				287772071EBECF0E00196D97 /* ViewController.swift */,
 				286365EE1EBF18A000B3C126 /* SignInRegisterViewController.swift */,
-				286365F01EBF18C800B3C126 /* SignInController.swift */,
 				286365F21EBF18E100B3C126 /* RegisterViewController.swift */,
+				286365F01EBF18C800B3C126 /* SignInController.swift */,
 			);
 			name = VC;
 			sourceTree = "<group>";

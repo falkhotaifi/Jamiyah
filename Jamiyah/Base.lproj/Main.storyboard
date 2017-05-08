@@ -18,7 +18,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Jamiyah" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="Jamiyah" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -73,7 +73,7 @@
                                 </constraints>
                                 <segments>
                                     <segment title="🔐  انشاء حساب جديد"/>
-                                    <segment title="🔓 تسحيل دخول"/>
+                                    <segment title="🔓 تسجيل دخول"/>
                                 </segments>
                                 <color key="tintColor" red="0.31871323914174976" green="0.51014755890332908" blue="0.53185629105703192" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
