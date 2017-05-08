@@ -11,11 +11,13 @@
 		286365EF1EBF18A000B3C126 /* SignInRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286365EE1EBF18A000B3C126 /* SignInRegisterViewController.swift */; };
 		286365F11EBF18C800B3C126 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286365F01EBF18C800B3C126 /* SignInController.swift */; };
 		286365F31EBF18E100B3C126 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286365F21EBF18E100B3C126 /* RegisterViewController.swift */; };
+		286365F51EBFC51100B3C126 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 286365F41EBFC51000B3C126 /* GoogleService-Info-2.plist */; };
 		287772061EBECF0E00196D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287772051EBECF0E00196D97 /* AppDelegate.swift */; };
 		287772081EBECF0E00196D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287772071EBECF0E00196D97 /* ViewController.swift */; };
 		2877720B1EBECF0E00196D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287772091EBECF0E00196D97 /* Main.storyboard */; };
 		2877720D1EBECF0E00196D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2877720C1EBECF0E00196D97 /* Assets.xcassets */; };
 		287772101EBECF0E00196D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2877720E1EBECF0E00196D97 /* LaunchScreen.storyboard */; };
+		421DE99BB08DC6A1598B2181 /* Pods_Jamiyah.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F33FED39974896028463FD0F /* Pods_Jamiyah.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,7 @@
 		286365EE1EBF18A000B3C126 /* SignInRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRegisterViewController.swift; sourceTree = "<group>"; };
 		286365F01EBF18C800B3C126 /* SignInController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
 		286365F21EBF18E100B3C126 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		286365F41EBFC51000B3C126 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 		287772021EBECF0E00196D97 /* Jamiyah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jamiyah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		287772051EBECF0E00196D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		287772071EBECF0E00196D97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +33,9 @@
 		2877720C1EBECF0E00196D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2877720F1EBECF0E00196D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		287772111EBECF0E00196D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C7725F643A48AB057424EF0 /* Pods-Jamiyah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jamiyah.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jamiyah/Pods-Jamiyah.release.xcconfig"; sourceTree = "<group>"; };
+		A436E7C47CC39CB0665B2384 /* Pods-Jamiyah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jamiyah.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jamiyah/Pods-Jamiyah.debug.xcconfig"; sourceTree = "<group>"; };
+		F33FED39974896028463FD0F /* Pods_Jamiyah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jamiyah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,12 +43,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				421DE99BB08DC6A1598B2181 /* Pods_Jamiyah.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		010AB201A1E61BB177C54FC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F33FED39974896028463FD0F /* Pods_Jamiyah.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		286365E91EBF151C00B3C126 /* VC */ = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +77,7 @@
 				2877720C1EBECF0E00196D97 /* Assets.xcassets */,
 				2877720E1EBECF0E00196D97 /* LaunchScreen.storyboard */,
 				287772111EBECF0E00196D97 /* Info.plist */,
+				286365F41EBFC51000B3C126 /* GoogleService-Info-2.plist */,
 			);
 			name = "Supported files";
 			sourceTree = "<group>";
@@ -79,6 +95,8 @@
 			children = (
 				287772041EBECF0E00196D97 /* Jamiyah */,
 				287772031EBECF0E00196D97 /* Products */,
+				C7B793FCC53A0020744CEB5A /* Pods */,
+				010AB201A1E61BB177C54FC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +118,15 @@
 			path = Jamiyah;
 			sourceTree = "<group>";
 		};
+		C7B793FCC53A0020744CEB5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A436E7C47CC39CB0665B2384 /* Pods-Jamiyah.debug.xcconfig */,
+				5C7725F643A48AB057424EF0 /* Pods-Jamiyah.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -107,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 287772141EBECF0E00196D97 /* Build configuration list for PBXNativeTarget "Jamiyah" */;
 			buildPhases = (
+				0A9506CF6FA0EB3891DDBD6F /* [CP] Check Pods Manifest.lock */,
 				287771FE1EBECF0E00196D97 /* Sources */,
 				287771FF1EBECF0E00196D97 /* Frameworks */,
 				287772001EBECF0E00196D97 /* Resources */,
+				6B8D3DD379B316F5E6C20C91 /* [CP] Embed Pods Frameworks */,
+				86594970ADE9C36BB726CC2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286365F51EBFC51100B3C126 /* GoogleService-Info-2.plist in Resources */,
 				287772101EBECF0E00196D97 /* LaunchScreen.storyboard in Resources */,
 				286365ED1EBF167400B3C126 /* muslimah-light-165e47eb23ec3485030eb50483629860.otf in Resources */,
 				2877720D1EBECF0E00196D97 /* Assets.xcassets in Resources */,
@@ -168,6 +199,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A9506CF6FA0EB3891DDBD6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B8D3DD379B316F5E6C20C91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jamiyah/Pods-Jamiyah-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86594970ADE9C36BB726CC2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jamiyah/Pods-Jamiyah-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		287771FE1EBECF0E00196D97 /* Sources */ = {
@@ -299,6 +378,7 @@
 		};
 		287772151EBECF0E00196D97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A436E7C47CC39CB0665B2384 /* Pods-Jamiyah.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WW8CTKBQ93;
@@ -312,6 +392,7 @@
 		};
 		287772161EBECF0E00196D97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7725F643A48AB057424EF0 /* Pods-Jamiyah.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WW8CTKBQ93;
