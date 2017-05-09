@@ -42,7 +42,6 @@ class RegisterViewController: UIViewController {
                 }
                 else {
                     self.setUserInfo(user_uid: uuid, email: final_email, username: username)
-                    FIRAuth.auth()?.signIn(withEmail: final_email, password: password, completion: nil)
                     let vc = self.storyboard?.instantiateViewController(withIdentifier: "MainView")
                     self.present(vc!, animated: true, completion: nil)
                 }
@@ -64,6 +63,7 @@ class RegisterViewController: UIViewController {
         
         user_list.child("E-mail address").setValue(email)
         user_list.child("Username").setValue(username)
+        user_list.child("User uid").setValue(user_uid)
     }
     
 }
