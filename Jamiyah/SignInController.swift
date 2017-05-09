@@ -24,7 +24,8 @@ class SignInController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func forgotPassword_buttonTabbed(_ sender: Any) {
-        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "ResetPassword")
+        self.present(vc!, animated: true, completion: nil)
     }
     
     

@@ -354,7 +354,7 @@
         <!--Reset Password Controller-->
         <scene sceneID="eO1-0x-yHp">
             <objects>
-                <viewController id="brE-Lt-KOo" customClass="ResetPasswordController" customModule="Jamiyah" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResetPassword" useStoryboardIdentifierAsRestorationIdentifier="YES" id="brE-Lt-KOo" customClass="ResetPasswordController" customModule="Jamiyah" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6a1-ab-OdL"/>
                         <viewControllerLayoutGuide type="bottom" id="jHR-hD-Dey"/>
@@ -363,7 +363,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3ft-Li-zRy">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="3ft-Li-zRy">
                                 <rect key="frame" x="40" y="192" width="290" height="40"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <constraints>
@@ -371,7 +371,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="Muslimah-Light" family="Muslimah" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ادخل ايميلك:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zz7-4N-A1Y">
                                 <rect key="frame" x="16" y="155" width="346" height="21"/>
@@ -397,10 +397,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q8p-eq-Bxx">
-                                <rect key="frame" x="166" y="613" width="38" height="34"/>
+                                <rect key="frame" x="166" y="617" width="30" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="38" id="dRo-BX-CBr"/>
-                                    <constraint firstAttribute="height" constant="34" id="trk-He-pZI"/>
+                                    <constraint firstAttribute="width" constant="30" id="dRo-BX-CBr"/>
+                                    <constraint firstAttribute="height" constant="30" id="trk-He-pZI"/>
                                 </constraints>
                                 <state key="normal" image="arrow-circle-outline"/>
                                 <connections>
@@ -410,7 +410,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.90284447189999995" green="0.91178352600000001" blue="0.91178352600000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="4Rg-YW-QPd" firstAttribute="centerX" secondItem="Q8p-eq-Bxx" secondAttribute="centerX" id="4Fn-Nc-dDi"/>
+                            <constraint firstItem="4Rg-YW-QPd" firstAttribute="centerX" secondItem="Q8p-eq-Bxx" secondAttribute="centerX" constant="4.5" id="4Fn-Nc-dDi"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Zz7-4N-A1Y" secondAttribute="trailing" constant="-3" id="6Eu-xx-HqP"/>
                             <constraint firstItem="3ft-Li-zRy" firstAttribute="centerX" secondItem="4Rg-YW-QPd" secondAttribute="centerX" id="BV8-Wd-OAH"/>
                             <constraint firstAttribute="trailingMargin" secondItem="3ft-Li-zRy" secondAttribute="trailing" constant="29" id="BrT-OE-fZV"/>
