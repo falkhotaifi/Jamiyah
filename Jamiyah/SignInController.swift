@@ -8,17 +8,44 @@
 
 import UIKit
 import Firebase
+import SkyFloatingLabelTextField
 
-class SignInController: UIViewController {
-    @IBOutlet weak var email_textField: UITextField!
-    @IBOutlet weak var password_textField: UITextField!
-
+class SignInController: UIViewController, UITextFieldDelegate {
+    @IBOutlet weak var email_textField: SkyFloatingLabelTextField!
+    @IBOutlet weak var password_textField: SkyFloatingLabelTextField!
+    var textFields : [SkyFloatingLabelTextField]!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        email_textField.delegate = self
+        email_textField.tag = 1
+        email_textField.returnKeyType = UIReturnKeyType.next
+        
+        password_textField.delegate = self
+        password_textField.tag = 2
+        password_textField.returnKeyType = UIReturnKeyType.go
+        
+        // Array of the textFields
+        textFields = [email_textField, password_textField]
+        
+        for textfield in textFields{
+            textfield.delegate = self
+            textfield.titleLabel.font = UIFont(name: "Muslimah", size: 12)
+        }
     }
-
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if let nextfield = textField.superview?.viewWithTag(textField.tag + 1) as? UITextField{
+            nextfield.becomeFirstResponder()
+        } else {
+            textField.resignFirstResponder()
+            return true
+        }
+        return false
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

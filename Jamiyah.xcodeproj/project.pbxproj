@@ -18,6 +18,8 @@
 		2877720D1EBECF0E00196D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2877720C1EBECF0E00196D97 /* Assets.xcassets */; };
 		287772101EBECF0E00196D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2877720E1EBECF0E00196D97 /* LaunchScreen.storyboard */; };
 		28CE034B1EC17407000B9FC8 /* ResetPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE034A1EC17406000B9FC8 /* ResetPasswordController.swift */; };
+		28FB77F61EC93B8100FF3797 /* www.Brushez.com-khalaad Hadeel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28FB77F51EC93B8100FF3797 /* www.Brushez.com-khalaad Hadeel.ttf */; };
+		28FB77F81EC93B8C00FF3797 /* www.Brushez.com-SC_AMEEN.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28FB77F71EC93B8C00FF3797 /* www.Brushez.com-SC_AMEEN.ttf */; };
 		421DE99BB08DC6A1598B2181 /* Pods_Jamiyah.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F33FED39974896028463FD0F /* Pods_Jamiyah.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		2877720F1EBECF0E00196D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		287772111EBECF0E00196D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28CE034A1EC17406000B9FC8 /* ResetPasswordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordController.swift; sourceTree = "<group>"; };
+		28FB77F51EC93B8100FF3797 /* www.Brushez.com-khalaad Hadeel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "www.Brushez.com-khalaad Hadeel.ttf"; sourceTree = "<group>"; };
+		28FB77F71EC93B8C00FF3797 /* www.Brushez.com-SC_AMEEN.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "www.Brushez.com-SC_AMEEN.ttf"; sourceTree = "<group>"; };
 		5C7725F643A48AB057424EF0 /* Pods-Jamiyah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jamiyah.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jamiyah/Pods-Jamiyah.release.xcconfig"; sourceTree = "<group>"; };
 		A436E7C47CC39CB0665B2384 /* Pods-Jamiyah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jamiyah.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jamiyah/Pods-Jamiyah.debug.xcconfig"; sourceTree = "<group>"; };
 		F33FED39974896028463FD0F /* Pods_Jamiyah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jamiyah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +92,8 @@
 		286365EB1EBF162100B3C126 /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				28FB77F71EC93B8C00FF3797 /* www.Brushez.com-SC_AMEEN.ttf */,
+				28FB77F51EC93B8100FF3797 /* www.Brushez.com-khalaad Hadeel.ttf */,
 				286365EC1EBF167400B3C126 /* muslimah-light-165e47eb23ec3485030eb50483629860.otf */,
 			);
 			name = Font;
@@ -196,7 +202,9 @@
 				287772101EBECF0E00196D97 /* LaunchScreen.storyboard in Resources */,
 				286365ED1EBF167400B3C126 /* muslimah-light-165e47eb23ec3485030eb50483629860.otf in Resources */,
 				286C853C1EC0588E0065762C /* GoogleService-Info.plist in Resources */,
+				28FB77F61EC93B8100FF3797 /* www.Brushez.com-khalaad Hadeel.ttf in Resources */,
 				2877720D1EBECF0E00196D97 /* Assets.xcassets in Resources */,
+				28FB77F81EC93B8C00FF3797 /* www.Brushez.com-SC_AMEEN.ttf in Resources */,
 				2877720B1EBECF0E00196D97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
