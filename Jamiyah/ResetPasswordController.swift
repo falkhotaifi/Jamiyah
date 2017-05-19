@@ -34,12 +34,11 @@ class ResetPasswordController: UIViewController {
         if (final_email.isEmpty){
             alert_message(alertTitle: "تنبيه", userMessage: "يجب ادخال الايميل")
         } else {
-            FIRAuth.auth()?.sendPasswordReset(withEmail: final_email, completion: { (error) in
-                if error != nil {
-                    self.alert_message(alertTitle: "تنبيه", userMessage: (error?.localizedDescription)!)
-                } else {
-                    self.alert_message(alertTitle: "تأكيد", userMessage: "تم الارسل للإيميل \(final_email)" )
-                }
+            AuthServices.reset_password(email: final_email, OnSeccuss: { (confir) in
+                print(confir)
+            
+            }, OnError: { (err) in
+                print(err!)
             })
         }
     }

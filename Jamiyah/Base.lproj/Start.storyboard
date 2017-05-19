@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ii9-4O-Q9R">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -18,44 +18,6 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController storyboardIdentifier="MainView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="Jamiyah" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8Q-52-Dp5">
-                                <rect key="frame" x="146" y="318" width="83" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="83" id="wND-Cr-oDP"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Muslimah-Light" family="Muslimah" pointSize="16"/>
-                                <state key="normal" title="تسجيل خروج"/>
-                                <connections>
-                                    <action selector="signOut_buttonTabbed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y0D-wJ-z7F"/>
-                                    <segue destination="ii9-4O-Q9R" kind="show" identifier="MoveToSignInRegView" id="ZvS-AN-kMU"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="i8Q-52-Dp5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gDV-VN-kVo"/>
-                            <constraint firstItem="i8Q-52-Dp5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="298" id="hCU-8d-2sR"/>
-                            <constraint firstItem="i8Q-52-Dp5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mA5-z8-xQV"/>
-                        </constraints>
-                    </view>
-                    <toolbarItems/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="847" y="-640"/>
-        </scene>
         <!--Sign In Register View Controller-->
         <scene sceneID="6Xj-WX-TH8">
             <objects>
@@ -472,6 +434,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pRX-WP-sP7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2980" y="-640.02998500749629"/>
+        </scene>
+        <!--MainView-->
+        <scene sceneID="dfM-EY-caI">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="MainView" storyboardName="Main" referencedIdentifier="MainView" id="cro-Fy-LVD" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ovg-IC-Zxm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="653" y="-652"/>
         </scene>
     </scenes>
     <resources>

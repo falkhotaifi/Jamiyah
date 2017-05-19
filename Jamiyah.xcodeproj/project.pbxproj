@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28220AC41ECE513C00E8D5CA /* AuthServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28220AC31ECE513C00E8D5CA /* AuthServices.swift */; };
+		28220AC61ECE532C00E8D5CA /* AlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28220AC51ECE532C00E8D5CA /* AlertMessage.swift */; };
+		28220ACA1ECEC02000E8D5CA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28220AC91ECEC02000E8D5CA /* SWRevealViewController.m */; };
+		28220ACC1ECEC41D00E8D5CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28220ACB1ECEC41D00E8D5CA /* Main.storyboard */; };
+		28220AD61ECEE38A00E8D5CA /* JamiyahListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28220AD51ECEE38A00E8D5CA /* JamiyahListViewController.swift */; };
+		28220AD81ECF000900E8D5CA /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28220AD71ECF000900E8D5CA /* Main2.storyboard */; };
+		28220ADA1ECF09A100E8D5CA /* addjam3iahViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28220AD91ECF09A100E8D5CA /* addjam3iahViewController.swift */; };
 		286365ED1EBF167400B3C126 /* muslimah-light-165e47eb23ec3485030eb50483629860.otf in Resources */ = {isa = PBXBuildFile; fileRef = 286365EC1EBF167400B3C126 /* muslimah-light-165e47eb23ec3485030eb50483629860.otf */; };
 		286365EF1EBF18A000B3C126 /* SignInRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286365EE1EBF18A000B3C126 /* SignInRegisterViewController.swift */; };
 		286365F11EBF18C800B3C126 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286365F01EBF18C800B3C126 /* SignInController.swift */; };
 		286365F31EBF18E100B3C126 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286365F21EBF18E100B3C126 /* RegisterViewController.swift */; };
 		286C853C1EC0588E0065762C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 286C853B1EC0588E0065762C /* GoogleService-Info.plist */; };
 		287772061EBECF0E00196D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287772051EBECF0E00196D97 /* AppDelegate.swift */; };
-		287772081EBECF0E00196D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287772071EBECF0E00196D97 /* ViewController.swift */; };
-		2877720B1EBECF0E00196D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287772091EBECF0E00196D97 /* Main.storyboard */; };
+		287772081EBECF0E00196D97 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287772071EBECF0E00196D97 /* MainViewController.swift */; };
+		2877720B1EBECF0E00196D97 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287772091EBECF0E00196D97 /* Start.storyboard */; };
 		2877720D1EBECF0E00196D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2877720C1EBECF0E00196D97 /* Assets.xcassets */; };
 		287772101EBECF0E00196D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2877720E1EBECF0E00196D97 /* LaunchScreen.storyboard */; };
 		28CE034B1EC17407000B9FC8 /* ResetPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE034A1EC17406000B9FC8 /* ResetPasswordController.swift */; };
@@ -24,6 +31,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28220AC31ECE513C00E8D5CA /* AuthServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthServices.swift; sourceTree = "<group>"; };
+		28220AC51ECE532C00E8D5CA /* AlertMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertMessage.swift; sourceTree = "<group>"; };
+		28220AC71ECEC01C00E8D5CA /* Jamiyah-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jamiyah-Bridging-Header.h"; sourceTree = "<group>"; };
+		28220AC81ECEC02000E8D5CA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		28220AC91ECEC02000E8D5CA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		28220ACB1ECEC41D00E8D5CA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		28220AD51ECEE38A00E8D5CA /* JamiyahListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JamiyahListViewController.swift; sourceTree = "<group>"; };
+		28220AD71ECF000900E8D5CA /* Main2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main2.storyboard; sourceTree = "<group>"; };
+		28220AD91ECF09A100E8D5CA /* addjam3iahViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addjam3iahViewController.swift; sourceTree = "<group>"; };
 		286365EC1EBF167400B3C126 /* muslimah-light-165e47eb23ec3485030eb50483629860.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "muslimah-light-165e47eb23ec3485030eb50483629860.otf"; sourceTree = "<group>"; };
 		286365EE1EBF18A000B3C126 /* SignInRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRegisterViewController.swift; sourceTree = "<group>"; };
 		286365F01EBF18C800B3C126 /* SignInController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
@@ -31,8 +47,8 @@
 		286C853B1EC0588E0065762C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		287772021EBECF0E00196D97 /* Jamiyah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jamiyah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		287772051EBECF0E00196D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		287772071EBECF0E00196D97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2877720A1EBECF0E00196D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		287772071EBECF0E00196D97 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2877720A1EBECF0E00196D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Start.storyboard; sourceTree = "<group>"; };
 		2877720C1EBECF0E00196D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2877720F1EBECF0E00196D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		287772111EBECF0E00196D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,15 +80,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		286365E91EBF151C00B3C126 /* VC */ = {
+		28220ACD1ECECADF00E8D5CA /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				287772051EBECF0E00196D97 /* AppDelegate.swift */,
-				287772071EBECF0E00196D97 /* ViewController.swift */,
+				287772091EBECF0E00196D97 /* Start.storyboard */,
+				28220ACB1ECEC41D00E8D5CA /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		28220AD21ECEDB6B00E8D5CA /* SignIn_Register */ = {
+			isa = PBXGroup;
+			children = (
 				286365EE1EBF18A000B3C126 /* SignInRegisterViewController.swift */,
 				286365F21EBF18E100B3C126 /* RegisterViewController.swift */,
 				286365F01EBF18C800B3C126 /* SignInController.swift */,
 				28CE034A1EC17406000B9FC8 /* ResetPasswordController.swift */,
+			);
+			name = SignIn_Register;
+			sourceTree = "<group>";
+		};
+		286365E91EBF151C00B3C126 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				287772071EBECF0E00196D97 /* MainViewController.swift */,
+				28220AD91ECF09A100E8D5CA /* addjam3iahViewController.swift */,
+				28220AD51ECEE38A00E8D5CA /* JamiyahListViewController.swift */,
+				28220AD21ECEDB6B00E8D5CA /* SignIn_Register */,
 			);
 			name = VC;
 			sourceTree = "<group>";
@@ -120,7 +154,14 @@
 		287772041EBECF0E00196D97 /* Jamiyah */ = {
 			isa = PBXGroup;
 			children = (
-				287772091EBECF0E00196D97 /* Main.storyboard */,
+				287772051EBECF0E00196D97 /* AppDelegate.swift */,
+				28220AC31ECE513C00E8D5CA /* AuthServices.swift */,
+				28220AC51ECE532C00E8D5CA /* AlertMessage.swift */,
+				28220AC81ECEC02000E8D5CA /* SWRevealViewController.h */,
+				28220AC91ECEC02000E8D5CA /* SWRevealViewController.m */,
+				28220AC71ECEC01C00E8D5CA /* Jamiyah-Bridging-Header.h */,
+				28220AD71ECF000900E8D5CA /* Main2.storyboard */,
+				28220ACD1ECECADF00E8D5CA /* Storyboards */,
 				286365E91EBF151C00B3C126 /* VC */,
 				286365EA1EBF158600B3C126 /* Supported files */,
 			);
@@ -171,7 +212,8 @@
 				TargetAttributes = {
 					287772011EBECF0E00196D97 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = WW8CTKBQ93;
+						DevelopmentTeam = 5W35Q53HR3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -202,10 +244,12 @@
 				287772101EBECF0E00196D97 /* LaunchScreen.storyboard in Resources */,
 				286365ED1EBF167400B3C126 /* muslimah-light-165e47eb23ec3485030eb50483629860.otf in Resources */,
 				286C853C1EC0588E0065762C /* GoogleService-Info.plist in Resources */,
+				28220ACC1ECEC41D00E8D5CA /* Main.storyboard in Resources */,
 				28FB77F61EC93B8100FF3797 /* www.Brushez.com-khalaad Hadeel.ttf in Resources */,
 				2877720D1EBECF0E00196D97 /* Assets.xcassets in Resources */,
 				28FB77F81EC93B8C00FF3797 /* www.Brushez.com-SC_AMEEN.ttf in Resources */,
-				2877720B1EBECF0E00196D97 /* Main.storyboard in Resources */,
+				28220AD81ECF000900E8D5CA /* Main2.storyboard in Resources */,
+				2877720B1EBECF0E00196D97 /* Start.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +310,14 @@
 			files = (
 				286365EF1EBF18A000B3C126 /* SignInRegisterViewController.swift in Sources */,
 				286365F31EBF18E100B3C126 /* RegisterViewController.swift in Sources */,
+				28220AC61ECE532C00E8D5CA /* AlertMessage.swift in Sources */,
+				28220AC41ECE513C00E8D5CA /* AuthServices.swift in Sources */,
 				28CE034B1EC17407000B9FC8 /* ResetPasswordController.swift in Sources */,
+				28220ACA1ECEC02000E8D5CA /* SWRevealViewController.m in Sources */,
+				28220AD61ECEE38A00E8D5CA /* JamiyahListViewController.swift in Sources */,
 				286365F11EBF18C800B3C126 /* SignInController.swift in Sources */,
-				287772081EBECF0E00196D97 /* ViewController.swift in Sources */,
+				287772081EBECF0E00196D97 /* MainViewController.swift in Sources */,
+				28220ADA1ECF09A100E8D5CA /* addjam3iahViewController.swift in Sources */,
 				287772061EBECF0E00196D97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,12 +325,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		287772091EBECF0E00196D97 /* Main.storyboard */ = {
+		287772091EBECF0E00196D97 /* Start.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2877720A1EBECF0E00196D97 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Start.storyboard;
 			sourceTree = "<group>";
 		};
 		2877720E1EBECF0E00196D97 /* LaunchScreen.storyboard */ = {
@@ -393,11 +442,14 @@
 			baseConfigurationReference = A436E7C47CC39CB0665B2384 /* Pods-Jamiyah.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WW8CTKBQ93;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 5W35Q53HR3;
 				INFOPLIST_FILE = Jamiyah/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-techaddictsa.Jamiyah";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jamiyah/Jamiyah-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -407,11 +459,13 @@
 			baseConfigurationReference = 5C7725F643A48AB057424EF0 /* Pods-Jamiyah.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WW8CTKBQ93;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 5W35Q53HR3;
 				INFOPLIST_FILE = Jamiyah/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-techaddictsa.Jamiyah";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jamiyah/Jamiyah-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -63,18 +63,17 @@ class SignInController: UIViewController, UITextFieldDelegate {
 
         
         if (final_email.isEmpty || password.isEmpty){
-            alert_message(userMessage: "يجب اكمال جميع الحقول 😒")
+            print("يجب اكمال جميع الحقول 😒")
         }
         else {
-            FIRAuth.auth()?.signIn(withEmail: final_email, password: password, completion: { (user, error) in
-                if (error != nil) {
-                    self.alert_message(userMessage: (error?.localizedDescription)!)
-                }
-                else {
-                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "MainView")
-                    self.present(vc!, animated: true, completion: nil)
-                }
+            AuthServices.signIn(email: final_email, password: password, OnSeccuss: {
+                let vc = self.storyboard?.instantiateViewController(withIdentifier: "MainView")
+                self.present(vc!, animated: true, completion: nil)
+                print ("Seccussfully signed in")
+            }, OnError: { (errorStr) in
+                print(errorStr!)
             })
+            
         }
     }
     
